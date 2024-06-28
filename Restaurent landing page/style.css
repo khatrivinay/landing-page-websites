@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* page 1 */
+
+.page1{
+    height: 100vh;
+    background-color: whtie;
+}
+
+.header{
+    position: relative;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    color: darkgreen;
+}
+
+.list ul{
+    display: flex;
+    list-style: none;
+}
+
+.list ul li a{
+    text-decoration: none;
+    margin: 0 30px;
+    color: black;
+}
+
+.list ul li a:hover{
+    color: darkgreen;
+}
+
+.home:hover{
+    font-weight: bold;
+}
+
+.store button{
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+}
+
+.store i{
+    background-color: darkgreen;
+}
+
+.content{
+    position: relative;
+    top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.herotext{
+    width: 60vh;
+    text-align: justify;
+}
+
+.heroimage img{
+    position: relative;
+    top: 8vh;
+    height: 80vh;
+}
+
+.herotext h1{
+    font-size:50px;
+}
+
+.herotext button{
+    padding: 15px 30px;
+    margin: 20px 0px;
+    border-radius: 30px;
+    border: none;
+    background-color: darkgreen;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+/* page 2 */
+
+.page2{
+    height: 100vh;
+    background-color: white;
+}
+
+.top{
+    position: relative;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bottom{
+    position: relative;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.one img{
+    height: 150px;
+}
+
+.single{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 22vw;
+    text-align: center;
+    background-color: white;
+    
+}
+
+.single:hover{
+    box-shadow: rgba(0, 0, 0, 0.545) 6px 2px 16px 0px, rgba(255, 255, 255, 0.222) -6px -2px 16px 0px;
+    border-radius: 60px;
+}
+
+.single img{
+    height: 150px;
+}
+
+.stars{
+    margin-top: 10px;
+    color: darkorange;
+}
+
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.last button{
+    cursor: pointer;
+    padding: 15px 20px;
+    background-color: darkgreen;
+    border-radius: 15px;
+    margin-left: 15px;
+    border: none;
+    color: white;
+}
+
+.last button:hover{
+    border: 2px solid black;
+}
+
+.last p{
+    font-weight: bold;
+}
+
+/* page 3 */
+
+.page3{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.page3 img{
+    height: 60vh;
+    margin-inline: auto;
+    filter: drop-shadow(0 0 50px rgba(97, 97, 97, 0.86));
+}
+
+.para{
+    margin: 25px 0px;
+}
+
+.right button{
+    padding: 20px;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700px;
+    cursor: pointer;
+}
+
+/* page 4 */
+
+.page4{
+    background-color: white;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon{
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: darkgreen;
+    color: white;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 45vh;
+}
+
+.first:hover{
+    box-shadow: rgba(0, 0, 0, 0.545) 6px 2px 16px 0px, rgba(255, 255, 255, 0.222) -6px -2px 16px 0px;
+    border-radius: 60px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 45vh;
+}
+
+.second:hover{
+    box-shadow: rgba(0, 0, 0, 0.545) 6px 2px 16px 0px, rgba(255, 255, 255, 0.222) -6px -2px 16px 0px;
+    border-radius: 60px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 45vh;
+}
+
+.third:hover{
+    box-shadow: rgba(0, 0, 0, 0.545) 6px 2px 16px 0px, rgba(255, 255, 255, 0.222) -6px -2px 16px 0px;
+    border-radius: 60px;
+}
+.first h3{
+    margin-bottom: 10px;
+}
+
+.first h5{
+    margin-top: 20px;
+    color: darkgreen;
+    cursor: pointer;
+}
+
+.first h5:hover{
+    color: white;
+}
+.second h3{
+    margin-bottom: 10px;
+}
+
+.second h5{
+    margin-top: 20px;
+    color: darkgreen;
+    cursor: pointer;
+}
+
+.second h5:hover{
+    color: white;
+}
+
+.third h3{
+    margin-bottom: 10px;
+}
+
+.third h5{
+    margin-top: 20px;
+    color: darkgreen;
+    cursor: pointer;
+}
+
+.third h5:hover{
+    color: white;
+}
+
+/* page 5 */
+
+.page5{
+    display: flex;
+    height: 100vh;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.h1{
+    margin-bottom: 20px;
+}
+
+.chef img{
+    height: 400px;
+    background-color: darkgreen;
+    border-radius: 50%;
+}
+
+.green{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.green i{
+    margin-right: 15px;
+    color: darkgreen;
+}
+
+.red{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.red i{
+    margin-right: 15px;
+    color: darkred;
+}
+
+.blue{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.blue i{
+    margin-right: 15px;
+    color: darkblue;
+}
+
+/* page 6 */
+
+.page6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: white;
+}
+
+.customer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback{
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    width: 40vw;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.545) 6px 2px 16px 0px, rgba(255, 255, 255, 0.222) -6px -2px 16px 0px;
+    border-radius: 60px;
+}
+
+.box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transition: 1s;
+}
+
+.image img{
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.page7{
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.last1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+
+.last1 p:hover{
+    cursor: pointer;
+    color: darkgreen;
+}
+
+.last1 h5{
+    margin-bottom: 2vh;
+}
+
+.last1 h3{
+    margin-bottom: 2vh;
+}
+
+.last1 p{
+    margin-bottom: 1vh;
+}
+
+.last2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.last2 i{
+   color: darkgreen;
+}
