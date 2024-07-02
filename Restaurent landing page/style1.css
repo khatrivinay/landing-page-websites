@@ -1,0 +1,217 @@
+@media (max-width:600px) { 
+    *{
+        overflow-x: hidden;
+    }
+    body{
+        width: 100%;
+        overflow-x:hidden;
+    }
+    .header{
+        justify-content: space-between;
+        margin: 0vh 6vw;
+    }
+    .page1{
+        height: 100vh;
+        overflow-y: hidden;
+    }
+    .logo{
+        font-size: 4vw;
+    }
+    .list{
+        display: none;
+    }
+    .store{
+        display: none;
+    }
+    .bars{
+        display: block;
+        font-size: 7vw;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        top: -3px;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .herotext{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-left: 5vw;
+        width: 100%;
+    }
+    .herotext h1{
+        font-size: 10vw;
+    }
+
+    .herotext p{
+        font-size: 4vw;
+        width: 90vw;
+        text-align: left;
+        margin-top: 1vw;
+    }
+
+    .herotext button{
+        font-size: 4vw;
+        padding: 4vw 8vw;
+
+    }
+
+    .heroimage img{
+        position: relative;
+        top: -0vh;
+        height: 40vh;
+    }
+
+    /* page 2 */
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .bottom{
+        position: relative;
+        top: 60px;
+        flex-wrap: wrap;
+    }
+    .single{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80vw;
+        margin: 1vw;
+    }
+
+    .page2{
+        height: 210vh;
+        overflow: hidden;
+    }
+
+    /* page 3 */
+
+    .page3{
+        flex-wrap: wrap;
+        height: 120vh;
+    }
+
+    .left{
+        position: relative;
+    }
+
+    .left img{
+        height: 80vw;
+    }
+
+    .right{
+        margin-left: 5vw;
+        width: 90vw;
+    }
+
+    /* page 4 */
+
+    .page4{
+        flex-wrap: wrap;
+        height: 150vh;
+    }
+
+    /* page 5 */
+
+    .page5{
+        flex-wrap: wrap;
+        height: 150vh;
+        margin: 0vw 5vw;
+    }
+
+    .chef img{
+        height: 80vw;
+    }
+
+    .green p{
+        width: 90vw;
+    }
+    .red p{
+        width: 90vw;
+    }
+    .blue p{
+        width: 90vw;
+    }
+    .blue i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 5vw;
+        height: 5vw;
+    }
+    .red i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 5vw;
+        height: 5vw;
+    }
+    .green i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 5vw;
+        height: 5vw;
+    }
+
+    /* page 6 */
+
+    .customer{
+        margin: 0vw 5vw;
+    }
+
+    .customer h1{
+        font-size: 7.5vw;
+    }
+
+    .feedback{
+        height: 100vw;
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .para{
+        width: 70vw;
+    }
+
+    /* page 7 */
+
+    .page7{
+        height: 160vh;
+    }
+
+    .last1{
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+
+    .quote{
+        margin: 0vw 5vw;
+    }
+
+    .same{
+        width: 100vw;
+        margin: 6vw 5vw;
+    }
+
+    .last2 p{
+        text-align: center;
+        width: 80vw;
+    }
+}
